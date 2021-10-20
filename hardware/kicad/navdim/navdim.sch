@@ -416,10 +416,10 @@ $EndComp
 Text GLabel 7950 4800 1    50   Input ~ 0
 PLED
 $Comp
-L Connector:TestPoint TST
+L Connector:TestPoint TST1
 U 1 1 61767A30
 P 7450 1850
-F 0 "TST" V 7450 2050 50  0000 L CNN
+F 0 "TST1" V 7450 2050 50  0000 L CNN
 F 1 "TestPoint" V 7450 1100 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7650 1850 50  0001 C CNN
 F 3 "~" H 7650 1850 50  0001 C CNN
@@ -427,10 +427,10 @@ F 3 "~" H 7650 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint RST
+L Connector:TestPoint RST1
 U 1 1 61767D78
 P 7450 2000
-F 0 "RST" V 7450 2250 50  0000 C CNN
+F 0 "RST1" V 7450 2250 50  0000 C CNN
 F 1 "TestPoint" H 7508 2027 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7650 2000 50  0001 C CNN
 F 3 "~" H 7650 2000 50  0001 C CNN
@@ -477,10 +477,10 @@ F 3 "" H 7450 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint GND
+L Connector:TestPoint GND1
 U 1 1 617684AC
 P 7450 2300
-F 0 "GND" V 7450 2550 50  0000 C CNN
+F 0 "GND1" V 7450 2550 50  0000 C CNN
 F 1 "TestPoint" H 7508 2327 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7650 2300 50  0001 C CNN
 F 3 "~" H 7650 2300 50  0001 C CNN
