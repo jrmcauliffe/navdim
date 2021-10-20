@@ -329,9 +329,9 @@ $EndComp
 Text GLabel 8700 3450 0    50   Input ~ 0
 PLAMP
 Text GLabel 4550 4000 0    50   Input ~ 0
-PLAMP
-Text GLabel 4550 4100 0    50   Input ~ 0
 PLED
+Text GLabel 4550 4100 0    50   Input ~ 0
+PLAMP
 NoConn ~ 4550 4300
 NoConn ~ 4550 4200
 NoConn ~ 4550 3900
@@ -416,34 +416,34 @@ $EndComp
 Text GLabel 7950 4800 1    50   Input ~ 0
 PLED
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint TST
 U 1 1 61767A30
 P 7450 1850
-F 0 "TP1" V 7450 2050 50  0000 L CNN
+F 0 "TST" V 7450 2050 50  0000 L CNN
 F 1 "TestPoint" V 7450 1100 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7650 1850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7650 1850 50  0001 C CNN
 F 3 "~" H 7650 1850 50  0001 C CNN
 	1    7450 1850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L Connector:TestPoint RST
 U 1 1 61767D78
 P 7450 2000
-F 0 "TP2" V 7450 2250 50  0000 C CNN
+F 0 "RST" V 7450 2250 50  0000 C CNN
 F 1 "TestPoint" H 7508 2027 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7650 2000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7650 2000 50  0001 C CNN
 F 3 "~" H 7650 2000 50  0001 C CNN
 	1    7450 2000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint 3v3
 U 1 1 61768157
 P 7450 2150
-F 0 "TP3" V 7450 2350 50  0000 L CNN
+F 0 "3v3" V 7450 2350 50  0000 L CNN
 F 1 "TestPoint" H 7508 2177 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7650 2150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7650 2150 50  0001 C CNN
 F 3 "~" H 7650 2150 50  0001 C CNN
 	1    7450 2150
 	0    -1   -1   0   
@@ -477,12 +477,12 @@ F 3 "" H 7450 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint GND
 U 1 1 617684AC
 P 7450 2300
-F 0 "TP4" V 7450 2550 50  0000 C CNN
+F 0 "GND" V 7450 2550 50  0000 C CNN
 F 1 "TestPoint" H 7508 2327 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7650 2300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7650 2300 50  0001 C CNN
 F 3 "~" H 7650 2300 50  0001 C CNN
 	1    7450 2300
 	0    -1   -1   0   
@@ -578,6 +578,17 @@ F 1 "VCC" H 2815 2173 50  0000 C CNN
 F 2 "" H 2800 2000 50  0001 C CNN
 F 3 "" H 2800 2000 50  0001 C CNN
 	1    2800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 6173ABA5
+P 5350 4550
+F 0 "#PWR0119" H 5350 4300 50  0001 C CNN
+F 1 "GND" H 5355 4377 50  0000 C CNN
+F 2 "" H 5350 4550 50  0001 C CNN
+F 3 "" H 5350 4550 50  0001 C CNN
+	1    5350 4550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

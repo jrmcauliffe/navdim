@@ -26,3 +26,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Exported Gerber and drill Files
+**/plots
+*.gbr*
+*.drl
